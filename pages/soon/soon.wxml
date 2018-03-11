@@ -1,0 +1,18 @@
+<view class='hot'>即将上映</view>
+<view>
+    <view class='item' wx:for="{{soonMovieList}}" wx:key="{{item.id}}" data-id='{{item.id}}' bindtap='getmessage'>
+     <view class='left'>
+      <image class='img' src='{{item.images.large}}'></image>
+    </view>
+    <view class='right'>
+      <view class='title'>{{item.original_title}}</view>
+      <view>暂无评分</view>
+      <view class='directors'>
+        <view>导演:{{item.directors[0].name}}</view>
+      </view>
+      <view class='genres'>
+        <view>{{item.genres}}</view>
+      </view>
+    </view> 
+  </view>
+</view>

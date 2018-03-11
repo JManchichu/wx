@@ -1,0 +1,25 @@
+/* pages/exp/exp.wxss */
+.top{
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img{
+  width: 240rpx;
+  height: 240rpx;
+}
+.people{
+  font-size: 48rpx;
+  font-weight: bolder;
+}
+.three{
+  display: -webkit-flex;
+  justify-content: space-around;
+}
+.itemimg{
+  width: 200rpx;
+  height: 200rpx;
+}
+.itemname{
+  text-align: center;
+}

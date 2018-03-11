@@ -1,0 +1,17 @@
+<view class='top'>
+  <image src='{{msg.images.large}}' class='img'></image>
+  <view class='name'>{{msg.original_title}}</view>
+</view>
+<view class='people'>相关人物</view>
+<view class='three'>
+  <view wx:for='{{msg.casts}}' wx:key="{{item.id}}">
+    <image class='itemimg' src='{{item.avatars.large}}'></image>
+    <view class='itemname'>{{item.name}}</view>
+  </view>
+</view>
+<view>
+  <view class='people'>主要内容</view>
+  <view wx:if="{{msg.summary == ''}}"></view>
+  <view wx:else>{{msg.summary}}</view>
+</view>
+

@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/hot/hot",
+    "pages/soon/soon",
+    "pages/top/top",
+    "pages/search/search",
+    "pages/exp/exp"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "电影小程序",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/hot/hot",
+      "text": "正在热映",
+      "iconPath": "png/video-camera.png",
+      "selectedIconPath":"png/video-camera.png"
+    },
+    {
+      "pagePath": "pages/soon/soon",
+      "text": "即将上映",
+      "iconPath": "png/film.png",
+      "selectedIconPath": "png/film.png"
+    },
+    {
+      "pagePath": "pages/top/top",
+      "text": "TOP",
+      "iconPath": "png/list-numbered.png",
+      "selectedIconPath": "png/list-numbered.png"
+    },
+    {
+      "pagePath": "pages/search/search",
+      "text": "搜索",
+      "iconPath": "png/star-full.png",
+      "selectedIconPath": "png/star-full.png"
+    }],
+    "color": "gray",
+    "selectedColor": "black",
+    "borderStyle": "black"
+  }
+}
